@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GS.css">
+	<title>ContactUs</title>
+</head>
+
+<body id="background">
+
+    <nav id="header2">
+        <img src="logofinal.jpg">            
+        <p>
+            <ul>
+                <li><a href="grocerywebsite.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Features.html">Features</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </p>  
+    </nav>
+
+
+	<div id="ContactUs">
+		<h1>Contact Us</h1>
+			<div class="form-shape">
+				<label for="name"><h3>Name</h3></label>
+				<input type="text" name="myName"
+					id="name"
+					placeholder="Enter your Name">
+			</div>
+			<div class="form-shape">
+				<label for="email"><h3>Email-Id</h3></label>
+				<input type="email" name="myEmail"
+					id="email"
+					placeholder="Enter your email">
+			</div>
+			<div class="form-shape">
+				<label for="pho"><h3>Phone Number</h3></label>
+				<input type="phone" name="myPhone"
+					id="pho"
+					placeholder="Enter your Phone no">
+			</div>
+            <form action="#">
+                <div class="form-shape">
+                    <label for="query">
+                        <h3>Type of Query</h3>
+                    </label>
+                    <select name="myQuery" id="query">
+                        <option value="sel" selected>
+                            Select
+                        </option>
+                        <option value="ord">
+                            Order related Issues
+                        </option>
+                        <option value="Site">
+                            Site related Issues
+                        </option>
+                        <option value="fed">
+                            Complaint related Issues
+                        </option>
+                        <option value="others">
+                            Others
+                        </option>
+                    </select>
+                </div>
+			<div class="form-shape">
+				<label for="message">
+                    <h3>Ellaborate your query</h3>
+				</label>
+				<textarea name="mesg" id="message"
+					cols="25" rows="5">
+				</textarea>
+			</div>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+	</div>
+</body>
+</html>

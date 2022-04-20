@@ -1,0 +1,330 @@
+header{
+    background-image:url("http://static8.depositphotos.com/1457895/944/v/450/depositphotos_9446771-Vegetable-background.jpg");
+    text-decoration-style: solid;
+    text-align:center;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#header2{
+    background-image: url("http://static8.depositphotos.com/1457895/944/v/450/depositphotos_9446771-Vegetable-background.jpg");
+    background: attachment 100px;
+    text-align:center;
+    font-size:x-large;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+header img{
+    display:ruby;
+    width: 300px;
+    height: 280px;
+    margin: auto;
+}
+
+
+#header2 img{
+    float: left;
+    align-items: flex-start;
+    width: 120px;
+    height: 100px;
+    margin-left: 5%;
+}
+
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    font-size: x-large;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(10, 7, 7);
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 3cm;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: green;
+    background-color: rgb(236, 236, 22);
+}
+
+
+#background{
+    /*background: url("bgforallmodules.jpg") no-repeat center center/cover;*/
+    background-color: #fef5c3;
+}
+
+/*home page*/
+#home{
+    text-align: center;
+    font-weight: 900;
+    font-size: 300%;
+    color: green;
+}
+
+
+
+
+
+
+/*contact us*/
+#ContactUs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+    font-size:x-large;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+/*Products*/
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 40px;
+    margin-left: 150px;
+    margin-top: 60px;
+}  
+#prod1{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("fruitsandvegs.jpg") no-repeat top center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod2{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("dairyprods.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod3{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("pulsesandcereals.jpg") no-repeat top center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+
+
+#container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 40px;
+    margin-left: 150px;
+    margin-top: 60px;
+} 
+#prod4{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("meatandfish.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod5{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("spicesandoils.jpg") no-repeat top center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod6{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background:url("bevrages.jpg") no-repeat top center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+
+#feedback{
+    text-align: center;
+}
+
+/*Features*/
+
+#align1{
+
+    margin-left: 250px;
+}
+
+
+#container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 280px));
+    margin: 80px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    text-align: left;
+    font-size: large;
+}
+
+#container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 280px));
+    margin: 80px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+} 
+#prod7{
+    width: 210px;
+    height: 180px;
+    border: 3px solid black;
+    background:url("oranges.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod8{
+    width: 210px;
+    height: 180px;
+    border: 3px solid black;
+    background:url("onions.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod9{
+    width: 210px;
+    height: 180px;
+    border: 3px solid black;
+    background:url("fish.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod10{
+    width: 210px;
+    height: 180px;
+    border: 3px solid black;
+    background:url("cheese.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod11{
+    width: 210px;
+    height: 180px;
+    border: 3px solid black;
+    background:url("chillipowder.jpeg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+
+#container5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 450px));
+    margin: 80px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#container6{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 460px));
+    margin: 80px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+} 
+#prod12{
+    width: 400px;
+    height: 300px;
+    border: 4px solid black;
+    background:url("freshprods.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod13{
+    width: 400px;
+    height: 250px;
+    border: 4px solid black;
+    background:url("fastdelivery.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#prod14{
+    width: 400px;
+    height: 400px;
+    border: 4px solid black;
+    background:url("easypayement.jpg") no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+
+/*button styling*/
+.btn{
+    margin-top:15px;
+    border: 2px solid black;
+    background-color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    color: green;
+    background-color: rgb(236, 236, 22);
+}
